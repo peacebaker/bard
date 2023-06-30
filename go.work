@@ -1,0 +1,17 @@
+go 1.20
+
+use (
+	./backend
+	./errs
+	./network/atlas
+	./network/bouncer
+	./network/pyro
+	./neighborhood/chat
+	./neighborhood/feed
+	./neighborhood/guard
+	./neighborhood/hoa
+	./neighborhood/house
+	./neighborhood/person
+	./neighborhood/postal
+	./neighborhood/sus
+)
